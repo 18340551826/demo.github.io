@@ -1,0 +1,141 @@
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,td,fieldset,legend{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset,iframe{border:0; }
+img{display:block; border:none;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{font-size:12px; font-family:"微软雅黑";}
+input,a{outline:none;}
+
+/* footer */
+/* footertop 轮播 */
+footer{
+    background: #F4F4F4;
+   padding-top: 80px;
+}
+.footerCenter{
+    width: 1200px;
+    margin: 0 auto;
+}
+.footerTop{
+    height:120px;
+    margin-bottom: 40px;
+}
+.recShop{
+    width: 1200px;
+    position: relative;
+    height: 40px;
+    border-bottom: 1px solid gainsboro;
+}
+.recShop ul{
+    height: 40px;
+    width: 2640px;
+}
+.recShop ul li{
+    float: left;
+    margin-right: 20px;
+    width: 100px;
+    line-height: 40px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.recShop ul a:hover{
+    color: #FA5757;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.recShop ul a{
+    text-decoration: none;
+    color: #666;
+}
+.recShop>div:nth-child(1){
+    position: absolute;
+    left: -100px;
+    top: 0;
+    width: 100px;
+    text-align: center;
+    line-height: 40px;
+    z-index: 99;
+}
+.recShop>span:nth-of-type(1){
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    text-align: center;
+    border: 1px solid gray;
+    color: gray;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 18px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background: #eeecec;
+    display: none;
+    z-index: 99;
+}
+.recShop>span:nth-of-type(2){
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    text-align: center;
+    border: 1px solid gray;
+    color: gray;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 18px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background: #eeecec;
+    display: none;
+    z-index: 99;
+}
+/* footerMiddle 二维码 */
+.footerMiddle{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 30px;
+}
+.footerMiddleLeft{
+    width: 40%;
+}
+.footerMiddle img{
+    width: 100%;
+}
+.footerMiddleRight{
+    width: 56%;
+    display: flex;
+    justify-content: space-between;
+}
+.footerMiddleRight>div:nth-child(1){
+    width: 18%;
+}
+.footerMiddleRight p{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.footerMiddleRight li{
+    text-align: center;
+    line-height: 24px;
+    color: #ABABAB;
+    cursor: pointer;
+}
+.footerMiddleRight>div:nth-child(2){
+    width: 18%;
+}
+.footerMiddleRight>div:nth-child(3){
+    width: 18%;
+}
+.footerMiddleRight>div:nth-child(4){
+    width: 18%;
+}
+.footerMiddleRight>div:nth-child(5){
+    width: 28%;
+}
+.footerBottom img{
+    width: 100%;
+}
